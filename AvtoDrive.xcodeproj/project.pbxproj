@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8407587D212D783000E32D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407587C212D783000E32D02 /* AppDelegate.m */; };
+		84075880212D783000E32D02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407587F212D783000E32D02 /* ViewController.m */; };
+		84075883212D783000E32D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84075881212D783000E32D02 /* Main.storyboard */; };
+		84075885212D783100E32D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84075884212D783000E32D02 /* Assets.xcassets */; };
+		84075888212D783100E32D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84075886212D783100E32D02 /* LaunchScreen.storyboard */; };
+		8407588B212D783100E32D02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407588A212D783100E32D02 /* main.m */; };
+		84075895212D783100E32D02 /* AvtoDriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84075894212D783100E32D02 /* AvtoDriveTests.m */; };
+		840758A0212D783100E32D02 /* AvtoDriveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407589F212D783100E32D02 /* AvtoDriveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84075891212D783100E32D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84075870212D783000E32D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84075877212D783000E32D02;
+			remoteInfo = AvtoDrive;
+		};
+		8407589C212D783100E32D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84075870212D783000E32D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84075877212D783000E32D02;
+			remoteInfo = AvtoDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84075878212D783000E32D02 /* AvtoDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvtoDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407587B212D783000E32D02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8407587C212D783000E32D02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8407587E212D783000E32D02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8407587F212D783000E32D02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84075882212D783000E32D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84075884212D783000E32D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84075887212D783100E32D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84075889212D783100E32D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407588A212D783100E32D02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84075890212D783100E32D02 /* AvtoDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtoDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84075894212D783100E32D02 /* AvtoDriveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvtoDriveTests.m; sourceTree = "<group>"; };
+		84075896212D783100E32D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407589B212D783100E32D02 /* AvtoDriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtoDriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407589F212D783100E32D02 /* AvtoDriveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvtoDriveUITests.m; sourceTree = "<group>"; };
+		840758A1212D783100E32D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84075875212D783000E32D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8407588D212D783100E32D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84075898212D783100E32D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8407586F212D783000E32D02 = {
+			isa = PBXGroup;
+			children = (
+				8407587A212D783000E32D02 /* AvtoDrive */,
+				84075893212D783100E32D02 /* AvtoDriveTests */,
+				8407589E212D783100E32D02 /* AvtoDriveUITests */,
+				84075879212D783000E32D02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84075879212D783000E32D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84075878212D783000E32D02 /* AvtoDrive.app */,
+				84075890212D783100E32D02 /* AvtoDriveTests.xctest */,
+				8407589B212D783100E32D02 /* AvtoDriveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8407587A212D783000E32D02 /* AvtoDrive */ = {
+			isa = PBXGroup;
+			children = (
+				8407587B212D783000E32D02 /* AppDelegate.h */,
+				8407587C212D783000E32D02 /* AppDelegate.m */,
+				8407587E212D783000E32D02 /* ViewController.h */,
+				8407587F212D783000E32D02 /* ViewController.m */,
+				84075881212D783000E32D02 /* Main.storyboard */,
+				84075884212D783000E32D02 /* Assets.xcassets */,
+				84075886212D783100E32D02 /* LaunchScreen.storyboard */,
+				84075889212D783100E32D02 /* Info.plist */,
+				8407588A212D783100E32D02 /* main.m */,
+			);
+			path = AvtoDrive;
+			sourceTree = "<group>";
+		};
+		84075893212D783100E32D02 /* AvtoDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				84075894212D783100E32D02 /* AvtoDriveTests.m */,
+				84075896212D783100E32D02 /* Info.plist */,
+			);
+			path = AvtoDriveTests;
+			sourceTree = "<group>";
+		};
+		8407589E212D783100E32D02 /* AvtoDriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8407589F212D783100E32D02 /* AvtoDriveUITests.m */,
+				840758A1212D783100E32D02 /* Info.plist */,
+			);
+			path = AvtoDriveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84075877212D783000E32D02 /* AvtoDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840758A4212D783100E32D02 /* Build configuration list for PBXNativeTarget "AvtoDrive" */;
+			buildPhases = (
+				84075874212D783000E32D02 /* Sources */,
+				84075875212D783000E32D02 /* Frameworks */,
+				84075876212D783000E32D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvtoDrive;
+			productName = AvtoDrive;
+			productReference = 84075878212D783000E32D02 /* AvtoDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8407588F212D783100E32D02 /* AvtoDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840758A7212D783100E32D02 /* Build configuration list for PBXNativeTarget "AvtoDriveTests" */;
+			buildPhases = (
+				8407588C212D783100E32D02 /* Sources */,
+				8407588D212D783100E32D02 /* Frameworks */,
+				8407588E212D783100E32D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84075892212D783100E32D02 /* PBXTargetDependency */,
+			);
+			name = AvtoDriveTests;
+			productName = AvtoDriveTests;
+			productReference = 84075890212D783100E32D02 /* AvtoDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8407589A212D783100E32D02 /* AvtoDriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840758AA212D783100E32D02 /* Build configuration list for PBXNativeTarget "AvtoDriveUITests" */;
+			buildPhases = (
+				84075897212D783100E32D02 /* Sources */,
+				84075898212D783100E32D02 /* Frameworks */,
+				84075899212D783100E32D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8407589D212D783100E32D02 /* PBXTargetDependency */,
+			);
+			name = AvtoDriveUITests;
+			productName = AvtoDriveUITests;
+			productReference = 8407589B212D783100E32D02 /* AvtoDriveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84075870212D783000E32D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84075877212D783000E32D02 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8407588F212D783100E32D02 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84075877212D783000E32D02;
+					};
+					8407589A212D783100E32D02 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84075877212D783000E32D02;
+					};
+				};
+			};
+			buildConfigurationList = 84075873212D783000E32D02 /* Build configuration list for PBXProject "AvtoDrive" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8407586F212D783000E32D02;
+			productRefGroup = 84075879212D783000E32D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84075877212D783000E32D02 /* AvtoDrive */,
+				8407588F212D783100E32D02 /* AvtoDriveTests */,
+				8407589A212D783100E32D02 /* AvtoDriveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84075876212D783000E32D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84075888212D783100E32D02 /* LaunchScreen.storyboard in Resources */,
+				84075885212D783100E32D02 /* Assets.xcassets in Resources */,
+				84075883212D783000E32D02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8407588E212D783100E32D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84075899212D783100E32D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84075874212D783000E32D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84075880212D783000E32D02 /* ViewController.m in Sources */,
+				8407588B212D783100E32D02 /* main.m in Sources */,
+				8407587D212D783000E32D02 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8407588C212D783100E32D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84075895212D783100E32D02 /* AvtoDriveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84075897212D783100E32D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840758A0212D783100E32D02 /* AvtoDriveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84075892212D783100E32D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84075877212D783000E32D02 /* AvtoDrive */;
+			targetProxy = 84075891212D783100E32D02 /* PBXContainerItemProxy */;
+		};
+		8407589D212D783100E32D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84075877212D783000E32D02 /* AvtoDrive */;
+			targetProxy = 8407589C212D783100E32D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84075881212D783000E32D02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84075882212D783000E32D02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84075886212D783100E32D02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84075887212D783100E32D02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840758A2212D783100E32D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840758A3212D783100E32D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840758A5212D783100E32D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvtoDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Null.AvtoDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840758A6212D783100E32D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvtoDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Null.AvtoDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840758A8212D783100E32D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvtoDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Null.AvtoDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvtoDrive.app/AvtoDrive";
+			};
+			name = Debug;
+		};
+		840758A9212D783100E32D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvtoDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Null.AvtoDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvtoDrive.app/AvtoDrive";
+			};
+			name = Release;
+		};
+		840758AB212D783100E32D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvtoDriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Null.AvtoDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvtoDrive;
+			};
+			name = Debug;
+		};
+		840758AC212D783100E32D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvtoDriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Null.AvtoDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvtoDrive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84075873212D783000E32D02 /* Build configuration list for PBXProject "AvtoDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840758A2212D783100E32D02 /* Debug */,
+				840758A3212D783100E32D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840758A4212D783100E32D02 /* Build configuration list for PBXNativeTarget "AvtoDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840758A5212D783100E32D02 /* Debug */,
+				840758A6212D783100E32D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840758A7212D783100E32D02 /* Build configuration list for PBXNativeTarget "AvtoDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840758A8212D783100E32D02 /* Debug */,
+				840758A9212D783100E32D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840758AA212D783100E32D02 /* Build configuration list for PBXNativeTarget "AvtoDriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840758AB212D783100E32D02 /* Debug */,
+				840758AC212D783100E32D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84075870212D783000E32D02 /* Project object */;
+}
