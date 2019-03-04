@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCellDel" rowHeight="30" id="MYZ-Qi-k6L" customClass="HistoryDeleteView">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MYZ-Qi-k6L" id="YiS-MN-ZQp">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pA8-uj-zZn">
+                        <rect key="frame" x="12" y="0.0" width="344" height="29"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lua-eS-FXV">
+                                <rect key="frame" x="30" y="4" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="QJo-7F-4Ef"/>
+                                    <constraint firstAttribute="height" constant="20" id="Tio-in-mGw"/>
+                                </constraints>
+                                <state key="normal" image="delete.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1529411765" green="0.16078431369999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lua-eS-FXV" firstAttribute="centerY" secondItem="pA8-uj-zZn" secondAttribute="centerY" id="9Dh-i0-D4e"/>
+                            <constraint firstItem="lua-eS-FXV" firstAttribute="leading" secondItem="pA8-uj-zZn" secondAttribute="leading" constant="30" id="zAp-qf-QMf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pA8-uj-zZn" secondAttribute="bottom" id="1KL-Wm-wgC"/>
+                    <constraint firstItem="pA8-uj-zZn" firstAttribute="top" secondItem="YiS-MN-ZQp" secondAttribute="top" id="Ll1-3G-jXk"/>
+                    <constraint firstAttribute="trailing" secondItem="pA8-uj-zZn" secondAttribute="trailing" constant="13" id="RI2-j9-2Je"/>
+                    <constraint firstItem="pA8-uj-zZn" firstAttribute="leading" secondItem="YiS-MN-ZQp" secondAttribute="leading" constant="12" id="erW-FY-gRn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="bt_dell" destination="lua-eS-FXV" id="oMV-dt-TPD"/>
+                <outlet property="container" destination="YiS-MN-ZQp" id="Nfh-8L-nNK"/>
+                <outlet property="viewDel" destination="pA8-uj-zZn" id="Oey-Cs-W0h"/>
+            </connections>
+            <point key="canvasLocation" x="-175.5" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete.png" width="2085" height="2084"/>
+    </resources>
+</document>

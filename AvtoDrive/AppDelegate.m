@@ -7,20 +7,66 @@
 //
 
 #import "AppDelegate.h"
+#import "FMDB.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
-
+//Копируем базу в документы при первом запуске
+- (void) FMDBInitializer{
+    
+    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentDir = [documentPaths objectAtIndex:0];
+   NSString *databasePath = [documentDir stringByAppendingPathComponent:@"db.sqlite3"];
+   
+    NSLog(@"%@",databasePath);
+    
+    BOOL success;
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    success = [fileManager fileExistsAtPath:databasePath];
+     self.databasePath = databasePath;
+   
+    
+    if(!success){
+        NSString *databasePathFromApp = @"/Users/admin/Desktop/AvtoDrive/AvtoDrive/db.sqlite3";
+        NSLog(@"%@", databasePathFromApp);
+        [fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
+        
+    }
+    else {
+    }
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self FMDBInitializer];
+    UINavigationBar *bar = [UINavigationBar appearance];
+    [bar setTintColor:[UIColor whiteColor]];
+    [bar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                 [UIFont fontWithName:@"Helvetica-Light" size:15.0], NSFontAttributeName, nil]];
+    bar.backItem.title = @"";
+    
+    NSString * query = [NSString stringWithFormat:@"select id,model,marka,type,year,name from auto where state = 1"];
+    FMDatabase *database;
+    database = [FMDatabase databaseWithPath:self.databasePath];
+    if([database open])
+    {
+        FMResultSet *result = [database executeQuery:query];
+        while([result next])
+        {
+            int id_car = [result intForColumn:@"id"];
+            NSString* model = [result stringForColumn:@"model"];
+            NSString* marka = [result stringForColumn:@"marka"];
+            NSString* type = [result stringForColumn:@"type"];
+            NSString* year = [result stringForColumn:@"year"];
+            NSString* name = [result stringForColumn:@"name"];
+            self.car = [[CurrentCar alloc] initAutoName:name Icon:@"" Model:model Marka:marka Year:year Id:id_car Type:type];
+        }
+    }
     return YES;
 }
-
-
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

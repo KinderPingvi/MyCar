@@ -1,0 +1,114 @@
+
+/* Class = "UILabel"; text = "Настройки"; ObjectID = "07E-bo-MFK"; */
+"07E-bo-MFK.text" = "Настройки";
+
+/* Class = "UIButton"; normalTitle = "17.09.2018"; ObjectID = "0XU-eT-I0I"; */
+"0XU-eT-I0I.normalTitle" = "17.09.2018";
+
+/* Class = "UITextField"; placeholder = "Дайте имя транспортному средству"; ObjectID = "0ZH-ud-n24"; */
+"0ZH-ud-n24.placeholder" = "Дайте имя транспортному средству";
+
+/* Class = "UITextField"; placeholder = "Укажите год"; ObjectID = "1js-Ee-QRQ"; */
+"1js-Ee-QRQ.placeholder" = "Укажите год";
+
+/* Class = "UIButton"; normalTitle = "Тюнинг"; ObjectID = "6kC-bN-q5J"; */
+"6kC-bN-q5J.normalTitle" = "Тюнинг";
+
+/* Class = "UITextField"; placeholder = "Тип"; ObjectID = "7DH-sf-yhH"; */
+"7DH-sf-yhH.placeholder" = "Тип";
+
+/* Class = "UIBarButtonItem"; title = "ОК"; ObjectID = "BcA-Yn-AVt"; */
+"BcA-Yn-AVt.title" = "ОК";
+
+/* Class = "UIButton"; normalTitle = "13:00"; ObjectID = "Bq3-5u-8Zb"; */
+"Bq3-5u-8Zb.normalTitle" = "13:00";
+
+/* Class = "UILabel"; text = "Добро пожаловать в MyCar!"; ObjectID = "FxN-0i-tJj"; */
+"FxN-0i-tJj.text" = "Добро пожаловать в MyCar!";
+
+/* Class = "UITextField"; placeholder = "  Вид сервиса"; ObjectID = "Gls-WP-XIB"; */
+"Gls-WP-XIB.placeholder" = "  Вид сервиса";
+
+/* Class = "UITextField"; placeholder = "0 км"; ObjectID = "I3Y-lc-WHw"; */
+"I3Y-lc-WHw.placeholder" = "0 км";
+
+/* Class = "UILabel"; text = "Показания одометра"; ObjectID = "Icc-aF-7tg"; */
+"Icc-aF-7tg.text" = "Показания одометра";
+
+/* Class = "UIButton"; normalTitle = "Мойка"; ObjectID = "KCe-DD-ez9"; */
+"KCe-DD-ez9.normalTitle" = "Мойка";
+
+/* Class = "UIBarButtonItem"; title = "Назад"; ObjectID = "KXN-ob-Jz0"; */
+"KXN-ob-Jz0.title" = "Назад";
+
+/* Class = "UITextField"; placeholder = "0 ₽"; ObjectID = "L9p-XY-i0t"; */
+"L9p-XY-i0t.placeholder" = "0 ₽";
+
+/* Class = "UILabel"; text = "Статистика"; ObjectID = "LOb-JU-vqg"; */
+"LOb-JU-vqg.text" = "Статистика";
+
+/* Class = "UIButton"; normalTitle = "Перейти к своей машине"; ObjectID = "LUr-2N-YDt"; */
+"LUr-2N-YDt.normalTitle" = "Перейти к своей машине";
+
+/* Class = "UITextField"; placeholder = "Марка"; ObjectID = "LzD-3a-qpj"; */
+"LzD-3a-qpj.placeholder" = "Марка";
+
+/* Class = "UIButton"; normalTitle = "Добавить "; ObjectID = "M2d-8o-XMF"; */
+"M2d-8o-XMF.normalTitle" = "Добавить ";
+
+/* Class = "UIButton"; normalTitle = "Напоминания"; ObjectID = "NjI-q6-FXg"; */
+"NjI-q6-FXg.normalTitle" = "Напоминания";
+
+/* Class = "UIButton"; normalTitle = "Сервис"; ObjectID = "Qev-Ix-PUD"; */
+"Qev-Ix-PUD.normalTitle" = "Сервис";
+
+/* Class = "UIButton"; normalTitle = "Топливо"; ObjectID = "R56-wX-GBy"; */
+"R56-wX-GBy.normalTitle" = "Топливо";
+
+/* Class = "UILabel"; text = "Гараж"; ObjectID = "Tv7-xG-src"; */
+"Tv7-xG-src.text" = "Гараж";
+
+/* Class = "UILabel"; text = "Стоимость услуги"; ObjectID = "bJK-tt-vby"; */
+"bJK-tt-vby.text" = "Стоимость услуги";
+
+/* Class = "UIButton"; normalTitle = "13:00"; ObjectID = "cdx-VH-XmZ"; */
+"cdx-VH-XmZ.normalTitle" = "13:00";
+
+/* Class = "UIButton"; normalTitle = "Разное"; ObjectID = "evg-05-VKg"; */
+"evg-05-VKg.normalTitle" = "Разное";
+
+/* Class = "UIButton"; normalTitle = "17.09.2018"; ObjectID = "huO-kG-OxW"; */
+"huO-kG-OxW.normalTitle" = "17.09.2018";
+
+/* Class = "UILabel"; text = "Показания одометра"; ObjectID = "kps-xU-tWF"; */
+"kps-xU-tWF.text" = "Показания одометра";
+
+/* Class = "UILabel"; text = "Калькулятор"; ObjectID = "kur-qF-PBM"; */
+"kur-qF-PBM.text" = "Калькулятор";
+
+/* Class = "UITextField"; placeholder = "Укажите модель"; ObjectID = "mbr-GN-vE2"; */
+"mbr-GN-vE2.placeholder" = "Укажите модель";
+
+/* Class = "UITextField"; placeholder = "  Вид сервиса"; ObjectID = "q5Q-70-u4l"; */
+"q5Q-70-u4l.placeholder" = "  Вид сервиса";
+
+/* Class = "UITextField"; placeholder = "Укажите пробег"; ObjectID = "rIb-lg-iwa"; */
+"rIb-lg-iwa.placeholder" = "Укажите пробег";
+
+/* Class = "UIButton"; normalTitle = "Добавить"; ObjectID = "uVh-x8-vJr"; */
+"uVh-x8-vJr.normalTitle" = "Добавить";
+
+/* Class = "UILabel"; text = "Стоимость услуги"; ObjectID = "uzz-u5-7dZ"; */
+"uzz-u5-7dZ.text" = "Стоимость услуги";
+
+/* Class = "UINavigationItem"; title = "Добавить автомобиль"; ObjectID = "woN-iO-stb"; */
+"woN-iO-stb.title" = "Добавить автомобиль";
+
+/* Class = "UITextField"; placeholder = "0 ₽"; ObjectID = "yJ2-NP-JD6"; */
+"yJ2-NP-JD6.placeholder" = "0 ₽";
+
+/* Class = "UITextField"; placeholder = "0 км"; ObjectID = "zMj-AW-Jgh"; */
+"zMj-AW-Jgh.placeholder" = "0 км";
+
+/* Class = "UIButton"; normalTitle = "Добавить"; ObjectID = "zhm-md-2xh"; */
+"zhm-md-2xh.normalTitle" = "Добавить";

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComboBoxButton">
+            <connections>
+                <outlet property="container" destination="hC5-8P-FyG" id="epo-Pd-3X8"/>
+                <outlet property="imgTitle" destination="Y8M-9n-0Ue" id="96L-OC-uV3"/>
+                <outlet property="tectTitle" destination="pTU-Fe-xxw" id="PMh-Fg-JFm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hC5-8P-FyG">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y8M-9n-0Ue">
+                    <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="vrt-lX-XA8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="МЕНЮ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTU-Fe-xxw">
+                    <rect key="frame" x="49" y="2" width="283" height="43"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_combo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yzP-fH-WuW">
+                    <rect key="frame" x="334" y="11" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="Jrg-Ds-ID2"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.20392156859999999" green="0.23137254900000001" blue="0.27058823529999998" alpha="0.5" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pTU-Fe-xxw" firstAttribute="top" secondItem="Jqq-1Y-WWT" secondAttribute="top" constant="2" id="6t4-at-OvI"/>
+                <constraint firstItem="Jqq-1Y-WWT" firstAttribute="bottom" secondItem="pTU-Fe-xxw" secondAttribute="bottom" constant="2" id="7hc-h8-d2m"/>
+                <constraint firstItem="yzP-fH-WuW" firstAttribute="top" secondItem="Jqq-1Y-WWT" secondAttribute="top" constant="11" id="892-Cz-NMe"/>
+                <constraint firstItem="Jqq-1Y-WWT" firstAttribute="trailing" secondItem="yzP-fH-WuW" secondAttribute="trailing" constant="16" id="C4d-Ep-EBN"/>
+                <constraint firstItem="yzP-fH-WuW" firstAttribute="leading" secondItem="pTU-Fe-xxw" secondAttribute="trailing" constant="2" id="Nme-ve-HwN"/>
+                <constraint firstItem="Y8M-9n-0Ue" firstAttribute="top" secondItem="hC5-8P-FyG" secondAttribute="top" id="UOv-7i-PlL"/>
+                <constraint firstItem="Jqq-1Y-WWT" firstAttribute="trailing" secondItem="yzP-fH-WuW" secondAttribute="trailing" constant="16" id="UmL-Fx-Ks8"/>
+                <constraint firstItem="Y8M-9n-0Ue" firstAttribute="leading" secondItem="Jqq-1Y-WWT" secondAttribute="leading" id="XW4-Fs-G17"/>
+                <constraint firstItem="pTU-Fe-xxw" firstAttribute="leading" secondItem="Y8M-9n-0Ue" secondAttribute="trailing" constant="2" id="lg8-it-qtJ"/>
+                <constraint firstItem="Y8M-9n-0Ue" firstAttribute="bottom" secondItem="Jqq-1Y-WWT" secondAttribute="bottom" id="nKc-3F-H8I"/>
+                <constraint firstItem="yzP-fH-WuW" firstAttribute="centerY" secondItem="hC5-8P-FyG" secondAttribute="centerY" id="snw-Mf-Y2G"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Jqq-1Y-WWT"/>
+            <point key="canvasLocation" x="28.5" y="-285.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_combo.png" width="513" height="512"/>
+    </resources>
+</document>
